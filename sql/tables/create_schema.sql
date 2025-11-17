@@ -1,0 +1,5 @@
+CREATE EXTERNAL SCHEMA spectrum
+FROM DATA CATALOG
+DATABASE 'youtube_raw_db'
+IAM_ROLE '<YOUR_ROLE_ARN>'
+REGION 'us-east-2';

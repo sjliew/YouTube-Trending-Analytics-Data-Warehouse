@@ -68,17 +68,27 @@ ETL Steps:
 
 1. **Extract**  
    - Download raw CSV from Kaggle API  
-   - Upload to S3 `/raw/`  
+   - Upload to S3 `/raw/`
+  
+![S3 Raw Data](assets/S3_raw.png)
+
+![Setting up IAM Role for Transforming](assets/IAM_ROle.png)
 
 2. **Transform** (Glue PySpark Jobs)  
    - Clean raw data  
    - Convert CSV → Parquet  
    - Create dim tables  
    - Create fact tables  
-   - Write outputs to S3 `/staging/`  
+   - Write outputs to S3 `/staging/`
+  
+![Glue Setup](assets/Glue_setup.png)
+
+![Glue Jobs](assets/Glue.png)
+
+![Airflow DAGs](assets/Airflow.png)
 
 3. **Load**  
    - Use Redshift `COPY` command to load Parquet from S3  
    - Populate base warehouse schema  
 
-All ETL scripts live in:  
+All ETL scripts live in ETL (PySpark) folder

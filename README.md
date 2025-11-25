@@ -1,7 +1,7 @@
 # 🎬 YouTube Trending Analytics Data Warehouse  
 ### (AWS S3 • Glue • PySpark • Redshift • Airflow • S3)
 
-This project builds an **end-to-end modern data engineering pipeline** that ingests the **YouTube Trending Dataset**, processes it using **AWS Glue (Spark)**, models the data using **dbt**, loads it into **Redshift**, orchestrates workflows with **Airflow**, and visualizes insights using **Tableau**.
+This project builds an **end-to-end modern data engineering pipeline** that ingests the **YouTube Trending Dataset**, processes it using **AWS Glue (Spark)**, models the data using **dbt**, loads it into **Redshift**, orchestrates workflows with **Airflow**, and visualizes insights.
 
 ---
 

@@ -23,9 +23,6 @@ To build a complete cloud-native data warehouse & analytics platform for YouTube
 - **Redshift Serverless** for warehousing  
 - **dbt** for data modeling & tests  
 - **Airflow** for orchestration  
-- **Tableau / Looker Studio** for BI dashboards  
-
-This project is designed as a **portfolio-ready data engineering showcase**.
 
 ---
 

@@ -54,11 +54,11 @@ Includes ~400,000 records of trending YouTube videos across multiple countries:
 
 ### 📊 **Facts**
 
-| Table | Grain | Description |
+| Table | Description |
 |--------|--------|-------------|
-| `fact_video_stats` | video_id + trending_date + country | Daily views/likes/comments |
-| `fact_engagement` | video_id + trending_date + country | Engagement rates (like_rate, comment_rate) |
-| `fact_trending_duration` | video_id + country | How long a video stays trending |
+| `fact_video_stats` | Daily views/likes/comments |
+| `fact_engagement` |  Engagement rates (like_rate, comment_rate) |
+| `fact_trending_duration` | How long a video stays trending |
 
 ---
 
